@@ -1,0 +1,473 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Poppins", sans-serif;
+}
+/* body button:hover {
+  transform: scale(1.2);
+  box-shadow: 3px 15px 30px rgba(0, 0, 0, 0.3);
+} */
+
+.container {
+  max-width: 1740px;
+  width: 100%;
+  margin-inline: auto;
+}
+a {
+  text-decoration: none;
+}
+li {
+  list-style: none;
+}
+h1 {
+  font-weight: 900;
+  font-style: Black;
+  font-size: 90px;
+  line-height: 120px;
+  letter-spacing: 0%;
+}
+button {
+  cursor: pointer;
+  transition: 0.5s;
+}
+.head {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 56px;
+}
+.head img {
+  padding-top: 46px;
+}
+nav {
+  display: flex;
+  gap: 54px;
+  padding-top: 46px;
+  align-items: center;
+}
+nav a:hover {
+  border-bottom: solid 2px;
+}
+nav a {
+  font-weight: 500;
+  font-style: Medium;
+  color: #000000;
+  font-size: 22px;
+  line-height: 100%;
+  letter-spacing: 1%;
+
+}
+
+.head button {
+  font-weight: 500;
+  border: none;
+  background-color: #000000;
+  padding: 18px 22px;
+  border-radius: 10px;
+  font-style: Medium;
+  font-size: 24px;
+  color: #fefefe;
+  line-height: 100%;
+  letter-spacing: -3%;
+}
+.head button:hover {
+}
+.hero {
+  background-color: #dcf4e8;
+  padding: 68px 80px 0 92px;
+  position: relative;
+  display: flex;
+  gap: 44px;
+}
+.bgc-h1 {
+  background-color: #ffffff;
+  width: 465px;
+  height: 112px;
+  transform: rotate(-3deg);
+}
+.hero h1 {
+  position: absolute;
+  left: 130px;
+  top: 70px;
+}
+.hero-text h2 {
+  font-weight: 900;
+  padding: 20px 0 10px 30px;
+  font-style: Black;
+  font-size: 90px;
+  line-height: 120px;
+  letter-spacing: 0%;
+}
+.bgc-h2 {
+  background-color: #ebd96b;
+  width: 495px;
+  height: 117px;
+  transform: rotate(-3deg);
+}
+.hero-text h3 {
+  font-weight: 900;
+  color: #000000;
+  font-style: Black;
+  font-size: 90px;
+  line-height: 120px;
+  letter-spacing: 0%;
+  position: absolute;
+  top: 335px;
+  left: 140px;
+}
+.hero-text h4 {
+  font-weight: 900;
+  color: #000000;
+  font-style: Black;
+  font-size: 96px;
+  line-height: 120px;
+  letter-spacing: 0%;
+  padding: 20px 0 50px 30px;
+}
+.hero-text p {
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 100%;
+  letter-spacing: -5%;
+  padding-left: 30px;
+}
+.icon-btn {
+  display: flex;
+  padding-top: 35px;
+  gap: 34px;
+}
+.icon-btn button {
+  border: none;
+  border-radius: 10px;
+  padding: 20px 40px;
+  font-weight: 500;
+  background-color: #000000;
+  font-style: Medium;
+  font-size: 30px;
+  line-height: 100%;
+  letter-spacing: -5%;
+  color: #ffffff;
+}
+.brand {
+  padding-top: 63px;
+}
+.obw-brand {
+  animation: move 15s linear infinite;
+  display: flex;
+  gap: 90px;
+  margin-left: 1800px;
+}
+.brand-bgc {
+  background-color: #ebd96b;
+  display: flex;
+  justify-content: space-between;
+  padding: 40px 174px;
+}
+@keyframes move{
+  0%{
+    transform: translate(0%);
+  }
+  100%{
+    transform: translate(-250%);
+  }
+}
+.images {
+  display: flex;
+  justify-content: space-between;
+}
+.images button {
+  border: none;
+  background-color: #fff;
+}
+.images-text {
+  display: flex;
+  justify-content: space-between;
+}
+.images-text h2 {
+  font-weight: 500;
+  color: #000000;
+  font-style: Medium;
+  font-size: 32px;
+  line-height: 50px;
+  letter-spacing: -4%;
+}
+.images p {
+  font-weight: 500;
+  color: #7f7f7f;
+  font-style: Medium;
+  font-size: 24px;
+  line-height: 50px;
+  letter-spacing: -4%;
+}
+.pay-day {
+  display: flex;
+  background-color: #f4d84b;
+  position: relative;
+}
+.pay-bgc {
+  background-color: #ffffff;
+  width: 541px;
+  height: 130px;
+  transform: rotate(-2deg);
+}
+.pay-text {
+  padding: 128px 199px 0 62px;
+}
+.pay-text h1 {
+  font-weight: 900;
+  color: #000000;
+  font-style: Black;
+  font-size: 111.61px;
+  line-height: 137.19px;
+  letter-spacing: 0%;
+  position: absolute;
+  left: 1080px;
+  top: 125px;
+}
+.pay-text h2 {
+  font-weight: 900;
+  font-style: Black;
+  font-size: 111.61px;
+  line-height: 137.19px;
+  letter-spacing: 0%;
+  padding: 20px 0 37px 25px;
+}
+.pay-text p {
+  font-weight: 500;
+  color: #231300;
+  font-style: Medium;
+  font-size: 36.04px;
+  line-height: 52.32px;
+  letter-spacing: -2%;
+  padding: 10px 0 40px 25px;
+}
+.pay-text h4 {
+  font-weight: 700;
+  color: #000000;
+  font-style: Bold;
+  font-size: 36.04px;
+  line-height: 52.32px;
+  letter-spacing: 2%;
+  padding: 0 0 25px 25px;
+}
+.pay-text h5 {
+  font-weight: 400;
+  color: #000000;
+  font-size: 36.04px;
+  line-height: 52.32px;
+  letter-spacing: -2%;
+  padding: 0 0 0 25px;
+  padding-bottom: 51px;
+}
+.pay-text button {
+  border: none;
+  border-radius: 8px;
+  padding: 26px 51px;
+  background-color: #000000;
+  color: #ffffff;
+  font-weight: 700;
+  font-style: Bold;
+  font-size: 28px;
+  line-height: 100%;
+  letter-spacing: 2%;
+  margin-left: 25px;
+}
+.star1 {
+  position: absolute;
+  left: 150px;
+  top: 170px;
+  animation: stars  infinite 1s linear;
+}
+.star2 {
+  position: absolute;
+  left: 760px;
+  top: 120px;
+  animation: stars  infinite 1s linear;
+}
+.star3 {
+  position: absolute;
+  left: 200px;
+  top: 550px;
+  animation: stars  infinite 1s linear;
+}
+.star4 {
+  position: absolute;
+  left: 850px;
+  top: 680px;
+  animation: stars  infinite 1s linear;
+}
+.stra {
+}
+@keyframes stars {
+  50% {
+    transform: scale(2);
+  }
+  50% {
+    transform: scale(2.1);
+  }
+}
+.shope-h1 {
+  padding: 190px 0 118px;
+}
+.img-shope {
+  display: flex;
+  justify-content: space-between;
+}
+.shope-text {
+  display: flex;
+  justify-content: space-between;
+  padding: 35px 0 10px;
+}
+.shope-text h2 {
+  font-weight: 500;
+  color: #000000;
+  font-style: Medium;
+  font-size: 32px;
+  line-height: 50px;
+  letter-spacing: -4%;
+}
+.download{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 550px;
+  padding: 220px 0;
+}
+.download-text h2{
+font-weight: 900;
+font-style: Black;
+font-size: 48px;
+line-height: 150%;
+color: #000000;
+letter-spacing: 6%;
+
+}
+.download-text p{
+font-weight: 500;
+color: #7C7C7C;
+font-style: Medium;
+font-size: 24px;
+line-height: 35px;
+letter-spacing: -4%;
+padding: 65px 0;
+
+}
+.down{
+  display: flex;
+  gap: 19px;
+}
+.send{
+  background-color: #E5C643;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 141px 0 156px;
+}
+.send h2{
+font-weight: 900;
+color: #FFFFFF;
+font-style: Black;
+font-size: 55px;
+line-height: 70px;
+letter-spacing: 3%;
+text-align: center;
+padding: 0 500px;
+
+}
+.send p{
+font-weight: 400;
+color: #FFFCF8;
+font-size: 32px;
+line-height: 35px;
+letter-spacing: 3%;
+display: flex;
+justify-content: center;
+padding: 37px 0 49px;
+}
+.emile{
+  background-color: #ffffff;
+  padding: 10px 0 10px 27px;
+  width: 500px;
+  height: 87px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.emile input{
+  border: none;
+font-weight: 400;
+font-size: 24px;
+line-height: 35px;
+color: #767676;
+letter-spacing: 3%;
+padding: 15px 2px;
+border-radius: 10px;
+
+}
+.emile input:hover{
+  border: none;
+}
+.emile button{
+  border: none;
+font-weight: 500;
+color: #FFFFFF;
+font-style: Medium;
+font-size: 33px;
+line-height: 35px;
+letter-spacing: 3%;
+text-transform: capitalize;
+background-color: #000000;
+border-radius: 10px;
+padding: 17px 36px;
+}
+.foot{
+  display: flex;
+  justify-content: space-between;
+  background-color: #000000;
+  padding: 119px 100px 147px;
+  position: relative;
+}
+.obw-teg{
+  display: flex;
+  gap: 141px;
+}
+.foot-text h2{
+font-weight: 900;
+color: #FFFFFF;
+font-style: Black;
+font-size: 40px;
+line-height: 100%;
+letter-spacing: 3%;
+
+}
+.foot p{
+font-weight: 400;
+font-size: 20px;
+line-height: 40px;
+letter-spacing: 2%;
+color: #8E8E8E;
+padding-top: 32px;
+
+}
+.foot h3{
+font-weight: 400;
+font-size: 20px;
+color: #D9D9D9;
+line-height: 40px;
+letter-spacing: 2%;
+
+}
+.foot-text p{
+  padding: 37px 0;
+}
+.foot-text p span{
+  position: absolute;
+  left: 100px;
+  top: 240px;
+}
